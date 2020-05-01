@@ -1,8 +1,7 @@
 # WorldWideEarthquake
 Plots earthquakes using MATLAB Editor 
 
-  Created by Jeng Hann, Chong (jenghann.chong.43@my.csun.edu). Do send me an email if you encounter
-  any problems, questions or suggestions. This was created in R2017b version of MATLAB. 
+  Created by Jeng Hann, Chong (jenghann.chong.43@my.csun.edu). 
 
 Requirements for all versions
 - Downloaded MATLAB 
@@ -19,8 +18,8 @@ Version 2.0
   - You will need to modify the script for fixed locations or use Version 1.0
 - Internet accessed fault maps from Global Earthquake Model (GEM) or pre-downloaded of your own shapefile
 
-Version 2.1
+Version 2.1 - publishing on 31-May-2020
 - [new] Auto-refresh enabled
   - Allowed to refresh at your own rate or to not refresh 
   
-  
+ %% Do send me an email if you encounter any problems, questions or suggestions. This was created in R2017b version of MATLAB. 
