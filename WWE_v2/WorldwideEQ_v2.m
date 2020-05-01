@@ -32,8 +32,9 @@ clc
 close all
 
 % Change/addpath for 'm_map' and 'border'. 
-addpath(genpath('Users/jc631637/Documents/MATLAB/m_map')) 
-addpath(genpath('Users/jc631637/Documents/MATLAB/matbin/borders_v3.1.2/borders'))
+addpath(genpath([pwd,'/m_map'])) 
+addpath(genpath([pwd,'/borders']))
+addpath(genpath([pwd,'/etopo1_ice_g_i2/']))
 
 %%% Past duration of earthquakes - choose only one between (hour, day, week, month)
 dur = 'hour'; % e.g: 'day'
