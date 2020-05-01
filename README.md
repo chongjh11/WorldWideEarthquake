@@ -18,7 +18,7 @@ Version 1.0
 - You need to have your own shapefiles for faults 
 
 Version 2.0
-- Focuses region based on largest magnitude or recent most earthquake (free to choose)
+- Focuses on region based on largest magnitude or recent most earthquake (free to choose)
   - You will need to modify the script for fixed locations or use Version 1.0
 - Internet accessed fault maps from Global Earthquake Model (GEM) or pre-downloaded of your own shapefile
 
