@@ -9,6 +9,7 @@ Requirements for all versions
 - Downloaded MATLAB 
 - Internet access to USGS
 - Download 'borders', 'etopo1_ice_gi2', 'm_map' - already provided in WWE_v2
+  - You will need to have these folders in the same directory as the WorldWideEQ scripts
 
 
 Version 1.0 
