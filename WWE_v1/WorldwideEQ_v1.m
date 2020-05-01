@@ -19,8 +19,10 @@ clear all
 clc
 close all
 
-addpath(genpath('Users/jc631637/Documents/MATLAB/Shapefiles/test'))
-addpath(genpath('Users/jc631637/Documents/MATLAB/Shapefiles'))
+addpath(genpath([pwd,'/m_map'])) 
+addpath(genpath([pwd,'/borders']))
+addpath(genpath([pwd,'/etopo1_ice_g_i2/']))
+% addpath(genpath('')) - % add your own shapefile directory if needed
 
 % Do you want an inset? It will take longer if yes.
 Insetcheck = 1; % 1 = yes; 0 = no
