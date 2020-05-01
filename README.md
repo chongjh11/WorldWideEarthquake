@@ -26,4 +26,3 @@ Version 2.1 - publishing on 31-May-2020
     
  %% Do send me an email if you encounter any problems, questions or suggestions. This was created in R2017b version of MATLAB. %% 
  
- MIT License
