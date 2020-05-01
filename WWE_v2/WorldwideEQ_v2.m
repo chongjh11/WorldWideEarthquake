@@ -6,7 +6,9 @@
 %   (https://www.eoas.ubc.ca/~rich/map.html)
 %   3. borders
 %   (https://www.mathworks.com/matlabcentral/fileexchange/50390-borders)
-%   
+%   4. etopo1_ice_g_i2 - Required for m_map
+%   (https://www.eoas.ubc.ca/~rich/mapug.html#p9.3)
+%
 %   OPTIONAL
 %   1. Download (or internet access) GEM Active faults shapefile
 %   (https://github.com/GEMScienceTools/gem-global-active-faults)
