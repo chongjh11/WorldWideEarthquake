@@ -59,6 +59,10 @@ close all
 addpath(genpath('Users/jc631637/Documents/MATLAB/m_map')) 
 addpath(genpath('Users/jc631637/Documents/MATLAB/matbin/borders_v3.1.2/borders'))
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Set up parameters
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %%% Past duration of earthquakes - choose only one between (hour, day, week, month)
 dur = 'hour'; % e.g: 'day'
 
