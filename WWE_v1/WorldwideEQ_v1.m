@@ -1,4 +1,4 @@
-% Plot EQ around the largest epicenter from the past 30 days
+% Plot earthquakes in real-time using USGS webservices.
 %
 %   REQUIREMENTS
 %   - Internet access
@@ -18,7 +18,7 @@
 %   by Jeng Hann, Chong (jenghann.chong.43@my.csun.edu)
 %
 % MIT License
-% 
+%
 % Copyright (c) 2020 Jeng Hann Chong
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -49,8 +49,12 @@ addpath(genpath([pwd,'/m_map']))
 addpath(genpath([pwd,'/borders']))
 addpath(genpath([pwd,'/etopo1_ice_g_i2/']))
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Set up parameters
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %%% Past duration of earthquakes - choose only one between (hour, day, week, month)
-dur = 'hour'; % e.g: 'day'
+dur = 'month'; % e.g: 'day'
 
 %%% Minumum magnitude - choose only one between (significant, 1.0, 2.5, 4.5) 
 siz = '1.0'; % e.g: '2.5'
@@ -64,21 +68,20 @@ sorttype = 1;
 
 %%% Setting up the parameters (range) for the region you are interested.
 %%% All should be from -180 to 180 longitude. If no preference, set values
-%%% of x1 = x2 and y1 = y2
+%%% of x1 = x2 and y1 = y2.
 
-x1 = -117;   % longitude on the left
+x1 = -119;   % longitude on the left
 x2 = -117;   % longitude on the right
-y2 = 32;     % latitude on the bottom
-y1 = 32;     % latitude on the top
-
-tStart = tic; % starting stopwatch
+y2 = 33;     % latitude on the bottom
+y1 = 35;     % latitude on the top
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 % 1. Load EQ data
     % This is the website to select the earthquake parameters 
     % https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-    
+tStart = tic; % starting stopwatch
+
 % Downloading feed from USGS
 options = weboptions('Timeout',20);
 % quakeDataJSON = webread('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson',options);
@@ -274,7 +277,7 @@ set(gca,'Fontsize',15)
 while 1
     if Insetcheck == 1 % only plots the inset if this is allowed 
     fprintf(['Plotting inset ... '])
-    axes('parent',h,'position',[0.600 0.45 0.33 0.33]); % [x,y,width,height];
+    axes('parent',h,'position',[0.605 0.45 0.33 0.33]); % [x,y,width,height];
 
 %%% Plotting borders
     borders('countries','facecolor','[0.7 0.7 0.7]')
@@ -292,7 +295,7 @@ while 1
 %         0 ]','markersize',15); % marker
 
 %%% The title of the map
-    txt_title_2 = uicontrol('Style', 'text', 'Position', [1150 380 200 20], 'Fontsize',15,'FontWeight','bold',...
+    txt_title_2 = uicontrol('Style', 'text', 'Position', [1150 640 200 20], 'Fontsize',15,'FontWeight','bold',...
         'String', 'World map view');
     
     fprintf('done\n')
