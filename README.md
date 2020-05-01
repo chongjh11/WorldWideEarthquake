@@ -1,6 +1,6 @@
 # WorldWideEarthquake
 Plots earthquakes using MATLAB Editor
-  Note: This is a fun project and intended to test out the capibilities of MATLAB editor. 
+Note: This is a fun project and intended to test out the capibilities of MATLAB editor. 
 
   Created by Jeng Hann, Chong (jenghann.chong.43@my.csun.edu). 
   
