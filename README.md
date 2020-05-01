@@ -24,5 +24,4 @@ Version 2.1 - publishing on 31-May-2020
 - [new] Auto-refresh enabled
   - Allowed to refresh at your own rate or to not refresh 
     
- %% Do send me an email if you encounter any problems, questions or suggestions. This was created in R2017b version of MATLAB. %% 
- 
+* Do send me an email if you encounter any problems, questions or suggestions. This was created in R2017b version of MATLAB.
