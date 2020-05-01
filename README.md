@@ -2,7 +2,7 @@
 Plots earthquakes using MATLAB Editor
 - This is a fun project and intended to test out the capibilities of MATLAB editor. 
 
-  Created by Jeng Hann, Chong (jenghann.chong.43@my.csun.edu). 
+Created by Jeng Hann, Chong (jenghann.chong.43@my.csun.edu). 
   
 
 Requirements for all versions
