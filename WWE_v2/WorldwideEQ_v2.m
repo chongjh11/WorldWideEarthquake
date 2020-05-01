@@ -22,9 +22,11 @@
 %   - Improved titles and annotations
 %   - Inside selection of earthquakes from USGS
 %
+%   Version 1.0 published on 1-May-2020
+%   Version 2.1 published on 31-May-2020
 %
 %   Last modified on 28-Apr-2020
-%   by Jeng Hann, Chong
+%   by Jeng Hann, Chong (jenghann.chong.43@my.csun.edu)
 %__________________________________________________________________________
 
 clear all
@@ -142,10 +144,10 @@ hold on;
 eval(mp); eval(mg);% eval(mr);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 5. Plot Topo map
+% 5. Plot topo map and title for color bar
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-c1 = -3000:50:0; % color interval sea-based
-c2 = 0:50:3000; % color interval land-based
+c1 = -3000:50:0; % color interval sea-based (meters)
+c2 = 0:50:3000; % color interval land-based (meters)
 
 [CS, CH]=m_etopo2('contourf',[c1 c2],'edgecolor','none');
 
