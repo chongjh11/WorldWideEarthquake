@@ -10,7 +10,7 @@ Requirements for all versions
 
 
 Version 1.0 
-- Only plots in a fixed region (0 to 360 degrees)
+- Allows the selection to plot in selected region
 - You need to have your own shapefiles for faults 
 
 Version 2.0
