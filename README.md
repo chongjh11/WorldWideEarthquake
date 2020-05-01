@@ -8,7 +8,7 @@ Plots earthquakes using MATLAB Editor
 Requirements for all versions
 - Downloaded MATLAB 
 - Internet access to USGS
-- Download 'borders', 'etopo1_ice_gi2', 'm_map'
+- Download 'borders', 'etopo1_ice_gi2', 'm_map' - already provided in WWE_v2
 
 
 Version 1.0 
