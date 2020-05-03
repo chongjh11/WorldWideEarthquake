@@ -6,7 +6,7 @@ Plots earthquakes using MATLAB Editor
 Created by Jeng Hann, Chong (jenghann.chong.43@my.csun.edu). 
   
 
-### Requirements for all versions
+## Requirements for all versions
 - Downloaded MATLAB 
 - Internet access to USGS
 - Download 'borders', 'etopo1_ice_gi2', 'm_map'
