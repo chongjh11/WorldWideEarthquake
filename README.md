@@ -9,7 +9,7 @@ Created by Jeng Hann, Chong (jenghann.chong.43@my.csun.edu).
 ## Requirements for all versions
 - Downloaded MATLAB 
 - Internet access to USGS
-- Download 'borders', 'etopo1_ice_gi2', 'm_map'
+- Download ```'borders', 'etopo1_ice_gi2', 'm_map'
   - 'borders' and 'm_map' is provided but you need to download 'etopo1_ice_gi2' as per instructions from m_map
   - You will need to have these folders in the same directory as the WorldWideEQ scripts
 
