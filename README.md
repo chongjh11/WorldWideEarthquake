@@ -19,14 +19,14 @@ Contact: Jeng Hann, Chong (jenghann.chong.43@my.csun.edu).
 - Allows the selection to plot in selected region
 - You need to have your own shapefiles for faults 
 
-![Version 1.0 default interface]()
+![Version 1.0 default interface](https://github.com/jhchong11/WorldWideEarthquake/blob/master/Images/example2.png)
 
 **Version 2.0**
 - Focuses on region based on largest magnitude or recent most earthquake (free to choose)
   - You will need to modify the script for fixed locations or use Version 1.0
 - Internet accessed fault maps from Global Earthquake Model (GEM) or pre-downloaded of your own shapefile
 
-![Version 2.0 default interface]()
+![Version 2.0 default interface](https://github.com/jhchong11/WorldWideEarthquake/blob/master/Images/example1.png)
 
 ## Updates
 **Version 2.1**  _publishing after 31-May-2020_
