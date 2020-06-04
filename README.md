@@ -29,11 +29,11 @@ Contact: Jeng Hann, Chong (jenghann.chong.43@my.csun.edu).
 ![Version 2.0 default interface](https://github.com/jhchong11/WorldWideEarthquake/blob/master/Images/example1.png)
 
 ## Updates
-**Version 2.1**  _publishing after 31-May-2020_
+**Version 2.1**  _publishing late Summer 2020_
   - [new] Auto-refresh enabled
   - Allowed to refresh at your own rate or to not refresh
   
-**Version 1.1** _publishing after 31-May-2020_
+**Version 1.1** _publishing late Summer 2020_
   - will include auto-refresh
   - Allowed to refresh at your own rate or to not refresh
 
