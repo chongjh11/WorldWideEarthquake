@@ -32,9 +32,10 @@ Contact: Jeng Hann, Chong (jenghann.chong.43@my.csun.edu).
 **Version 2.1**  _publishing late Summer 2020_
   - [new] Auto-refresh enabled
   - Allowed to refresh at your own rate or to not refresh
+  - Improved appearance 
   
 **Version 1.1** _publishing late Summer 2020_
-  - will include auto-refresh
+  - Includes auto-refresh
   - Allowed to refresh at your own rate or to not refresh
 
 
