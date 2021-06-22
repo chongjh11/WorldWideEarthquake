@@ -27,10 +27,10 @@ Contact: Jeng Hann, Chong (chongjh11.unm.edu) (as of May 2021).
 ![Version 1.0 default interface](https://github.com/jhchong11/WorldWideEarthquake/blob/master/Images/example2.png)
 
 **Version 2.1**  _released Summer 2021_
-  - [new] Auto-refresh enabled
+  - Auto-refresh enabled
   - Allowed to refresh at your own rate or to not refresh
   - Improved appearance 
-  - 
+
 **Version 2.0** _released Summer 2020_
 - Focuses on region based on largest magnitude or recent most earthquake (free to choose)
   - You will need to modify the script for fixed locations or use Version 1.0
