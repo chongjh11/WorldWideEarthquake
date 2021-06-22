@@ -1,7 +1,7 @@
 # WorldWideEarthquake
 Plots earthquakes using MATLAB Editor
 - This is a fun project and intended to test out the capibilities of MATLAB editor. 
-- This does not have any functions
+- There will only be a MATLAB Script to download, no additional functions needed.
 - For more information, you can access (https://www.chongjh.com/blog/worldwideearthquake)
 
 Contact: Jeng Hann, Chong (chongjh11.unm.edu) (as of May 2021). 
