@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/259527731.svg)](https://zenodo.org/doi/10.5281/zenodo.11508590)
+
 # WorldWideEarthquake
 Plots earthquakes using MATLAB Editor
 - This is a fun project and intended to test out the capibilities of MATLAB editor. 
