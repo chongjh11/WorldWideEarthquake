@@ -2,8 +2,8 @@
 
 # WorldWideEarthquake
 Plots earthquakes using MATLAB Editor
-- This is a fun project and intended to test out the capibilities of MATLAB editor. 
-- There will only be a MATLAB Script to download, no additional functions needed.
+- This is a fun project and intended to test out the capabilities of MATLAB editor. 
+- There will only be a MATLAB Script to download, no additional functions are needed.
 - For more information, you can access (https://www.chongjh.com/blog/worldwideearthquake)
 
 Contact: Jeng Hann, Chong (chongjh11.unm.edu) (as of May 2021). 
@@ -23,7 +23,7 @@ Contact: Jeng Hann, Chong (chongjh11.unm.edu) (as of May 2021).
   - Allowed to refresh at your own rate or to not refresh
 
 **Version 1.0** _released Summer 2020_
-- Allows the selection to plot in selected region
+- Allows the selection to plot in a selected region
 - You need to have your own shapefiles for faults 
 
 ![Version 1.0 default interface](https://github.com/jhchong11/WorldWideEarthquake/blob/master/Images/example2.png)
@@ -40,4 +40,4 @@ Contact: Jeng Hann, Chong (chongjh11.unm.edu) (as of May 2021).
 
 ![Version 2.0 default interface](https://github.com/jhchong11/WorldWideEarthquake/blob/master/Images/example1.png)
 
-_Do send me an email if you encounter any problems, questions or suggestions. This was created in **R2017b** version of MATLAB._
+_Do send me an email if you encounter any problems, questions, or suggestions. This was created in **R2017b** version of MATLAB._
